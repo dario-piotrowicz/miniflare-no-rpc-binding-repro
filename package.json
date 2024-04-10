@@ -1,0 +1,16 @@
+{
+  "name": "miniflare-no-rpc-binding-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start-ok": "node index.js",
+    "start-ko": "node index.js error"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "miniflare": "^3.20240404.0"
+  }
+}
